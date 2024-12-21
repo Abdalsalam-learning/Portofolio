@@ -1,0 +1,34 @@
+.content{
+    display: block;
+}
+
+.forma{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.inp{
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--txt);
+    border-radius: 8px;
+    background-color: #fff;
+    min-width: 250px;
+    width: 30vw;
+}
+.btn {
+    float: right;
+    padding: 12px 50px;
+    cursor: pointer;
+    border: 0;
+    color: var(--txt);
+    background: var(--hbgc);
+    border-radius: 8px;
+    background-color:var(--btn)
+}
+.btn:hover {
+    background: var(--hcolor);
+}

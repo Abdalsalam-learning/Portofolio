@@ -1,0 +1,31 @@
+.skill{
+    min-width: 250px;
+    width: 30vw;
+    
+}
+.bar{
+    height: 8px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+.bar .prograss{
+    height: 100%;
+    background-color: var(--bgc);
+}
+.skill span{ 
+    padding-left: 16px;
+    color: var(--bgc);
+}
+.front{
+    width: 70%;
+}
+.back{
+    width: 20%;
+}
+.react{
+    width: 60%;
+}
+.ui{
+    width: 40%;
+}
